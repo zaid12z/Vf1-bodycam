@@ -2,7 +2,7 @@ fx_version 'cerulean'
 
 game "gta5"
 
-author "Rexx"
+author "Vf1"
 version '3.0.0'
 
 lua54 'yes'
@@ -15,15 +15,6 @@ shared_script {
 }
 
 server_script {
-  "server/**",
-  '@oxmysql/lib/MySQL.lua',
+  "server/server.lua",
 }
 
-client_script {
-  'client/**',
-}
-
-files {
-  'web/**',
-  "node_modules/fivem-game-view/**/*",
-}
