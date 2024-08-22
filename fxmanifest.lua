@@ -7,3 +7,6 @@ version '3'
 
 lua54 'yes'
 
+client_script{
+"v.lua"
+}
